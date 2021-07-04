@@ -1,2 +1,5 @@
-build()
-static_code_analysis()
+pipeline_config.groovy
+libraries{
+  merge = true // allow individual apps to contribute additional libraries
+  sonarqube
+}
